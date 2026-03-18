@@ -13,7 +13,7 @@ async function startServer() {
     },
   });
 
-  const PORT = 3000;
+  const PORT = process.env.PORT || 3000;
 
   // Leaderboard state (in-memory for now)
   let leaderboard: { name: string; score: number }[] = [];
