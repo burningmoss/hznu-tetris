@@ -1,0 +1,5 @@
+{
+  "name": "HZNU Python Tetris",
+  "description": "A full-featured Tetris web application for HZNU Python students with single-player and multiplayer PK modes.",
+  "requestFramePermissions": []
+}
